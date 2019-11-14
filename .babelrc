@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets" :{
+          "browsers": ["last 2 versions", "IE 11"]
+        },
+        "modules": false,
+        "useBuiltIns": true
+      }
+    ]
+  ],
+  "plugins": [
+    "external-helpers",
+    "transform-runtime"
+  ]
+}

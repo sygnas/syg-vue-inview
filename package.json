@@ -1,0 +1,45 @@
+{
+  "name": "@sygnas/vue-inview",
+  "version": "0.2.0",
+  "description": "Scroll in viewport add data attribute.",
+  "main": "dist/vue-inview.js",
+  "module": "dist/vue-inview.es.js",
+  "moduleName": "syg-vue-inview",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sygnas/syg-vue-inview.git"
+  },
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "NODE_ENV=example rollup -w -c rollup.config.js",
+    "dev": "NODE_ENV=development rollup -c rollup.config.js",
+    "prod": "NODE_ENV=production rollup -c rollup.config.js",
+    "production": "rm -rf dist && npm run dev && npm run prod",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "scroll",
+    "effect",
+    "navigation"
+  ],
+  "author": "Hiroshi Fukuda <info.sygnas@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^4.17.0",
+    "rollup": "^0.55.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "dependencies": {
+  }
+}
