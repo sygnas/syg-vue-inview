@@ -9,6 +9,8 @@ Vue用のIntersectionObserverなもの。
 
 ## Release
 
+- 2022.07.29
+  - Vue3用に変更
 - 2019.11.14
   - とりあえず公開
 
